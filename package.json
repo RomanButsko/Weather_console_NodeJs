@@ -1,10 +1,10 @@
 {
-  "name": "weather-console",
+  "name": "weather-console-demo",
   "version": "1.0.0",
   "description": "",
   "main": "weather.js",
   "bin": {
-    "weather": "weather.js" 
+    "weather": "weather.js"
   },
   "type": "module",
   "scripts": {
@@ -12,5 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
 }
